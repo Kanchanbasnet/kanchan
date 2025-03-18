@@ -12,7 +12,7 @@ import {
   ReactIcon,
   TypeScriptIcon,
 } from '../../assets/icons/icons';
-
+import resume from '../../assets/Kanchan Basnet.pdf'
 const skills = [
   {
     name: 'Javascript',
@@ -176,6 +176,14 @@ const About = () => {
             whileTap={{ scale: 0.98 }}
             onHoverStart={() => setIsHovered(true)}
             onHoverEnd={() => setIsHovered(false)}
+            onClick={() => {
+              const link = document.createElement("a");
+              link.href = resume;
+              link.download = "Kanchan_Basnet_Resume.pdf"; 
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
           >
             Download Resume
             <motion.div
