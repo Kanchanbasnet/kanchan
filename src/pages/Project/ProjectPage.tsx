@@ -3,6 +3,7 @@ import FooterNavigation from '../../components/FooterNavigation';
 import { useState } from 'react';
 import ProjectCards from './ProjectCards';
 import Footer from '../../components/Footer';
+import Seo from '../../components/Seo';
 
 const ProjectPage = () => {
   const projectCategory = ['All'];
@@ -22,6 +23,11 @@ const ProjectPage = () => {
   };
   return (
     <div className="min-h-screen bg-black">
+       <Seo
+        title="Projects | Kanchan Basnet"
+        description="A collection of projects showcasing my work in generative AI and web development."
+        pathName="projects"
+      />
       <motion.section
         className="container mx-auto px-4 py-24 sm:px-6 lg:px-8"
         initial={{ opacity: 0, y: 20 }}

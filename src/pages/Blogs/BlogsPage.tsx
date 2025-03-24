@@ -2,10 +2,16 @@ import { motion } from 'framer-motion';
 import FooterNavigation from '../../components/FooterNavigation';
 import BlogCards from './BlogCards';
 import Footer from '../../components/Footer';
+import Seo from '../../components/Seo';
 
 const BlogsPage = () => {
   return (
     <div className="min-h-screen bg-black">
+       <Seo
+        title="Blogs | Kanchan Basnet"
+        description="A collection of articles where I share insights on programming, web development, and technology trends."
+        pathName="blogs"
+      />
       <motion.section
         className="container mx-auto px-4 py-24 sm:px-6 lg:px-8"
         initial={{ opacity: 0, y: 20 }}

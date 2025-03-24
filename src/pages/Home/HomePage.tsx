@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import FooterNavigation from "../../components/FooterNavigation"
 import Footer from "../../components/Footer"
+import Seo from "../../components/Seo"
 
 const HomePage = () => {
   const roles = ["Kanchan Basnet", "Software Engineer", "Learner"]
@@ -18,6 +19,11 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Seo
+        title="Kanchan Basnet | Software Engineer | Portfolio"
+        description="Backend developer skilled in Node.js, React.js, and TypeScript. Building reliable and efficient applications with clean, maintainable code."
+        pathName=""
+      />
       <motion.div
         className="p-4 sm:p-6 flex-grow flex flex-col justify-center items-center"
         initial={{ opacity: 0 }}
