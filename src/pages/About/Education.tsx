@@ -55,7 +55,7 @@ const Education = () => {
     >
       <div>
         <motion.div className="flex items-center gap-2 mb-2" variants={item}>
-          <GraduationCap className="w-6 h-6 text-gray-400" />
+          <GraduationCap className="w-5 h-5 text-gray-400" />
           <h2 className="text-xl font-semibold text-white">Education</h2>
         </motion.div>
 

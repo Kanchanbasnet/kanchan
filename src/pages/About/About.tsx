@@ -115,7 +115,7 @@ const About = () => {
               animate={{ rotate: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <FileText className="w-6 h-6 text-gray-400" />
+              <FileText className="w-5 h-5 text-gray-400" />
             </motion.div>
             <h2 className="text-xl font-semibold text-white">Profile</h2>
           </div>
@@ -130,7 +130,7 @@ const About = () => {
               animate={{ rotate: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Code className="w-6 h-6 text-gray-400" />
+              <Code className="w-5 h-5 text-gray-400" />
             </motion.div>
             <h2 className="text-xl font-semibold text-white">Skills</h2>
           </div>

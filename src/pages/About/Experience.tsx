@@ -55,7 +55,7 @@ const Experience = () => {
       variants={container}
     >
       <motion.div className="flex items-center gap-2 mb-2" variants={item}>
-        <Building2 className="w-6 h-6 text-gray-400" />
+        <Building2 className="w-5 h-5 text-gray-400" />
         <h2 className="text-xl font-semibold text-white">Work Experience</h2>
       </motion.div>
 

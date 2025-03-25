@@ -8,40 +8,8 @@ export default function ProfessionalSummary() {
   const [activeTab, setActiveTab] = useState("about")
 
   return (
-    <div className="mt-8 sm:mt-12 mx-auto overflow-hidden rounded-lg bg-black border border-gray-800">
-      <div className="sm:hidden flex flex-col divide-y divide-gray-800">
-        <button
-          onClick={() => setActiveTab("about")}
-          className={`flex items-center justify-center gap-2 py-3 px-4 transition-colors cursor-pointer 
-            ${activeTab === "about" ? "text-white bg-[#1c1c1c]" : "text-gray-400 hover:text-gray-300"}
-          `}
-        >
-          <FileText className="w-4 h-4" />
-          <span className="font-medium">About</span>
-        </button>
-
-        <button
-          onClick={() => setActiveTab("experience")}
-          className={`flex items-center justify-center gap-2 py-3 px-4 transition-colors cursor-pointer 
-            ${activeTab === "experience" ? "text-white bg-[#1c1c1c]" : "text-gray-400 hover:text-gray-300"}
-          `}
-        >
-          <Building2 className="w-4 h-4" />
-          <span className="font-medium">Experience</span>
-        </button>
-
-        <button
-          onClick={() => setActiveTab("education")}
-          className={`flex items-center justify-center gap-2 py-3 px-4 transition-colors cursor-pointer 
-            ${activeTab === "education" ? "text-white bg-[#1c1c1c]" : "text-gray-400 hover:text-gray-300"}
-          `}
-        >
-          <GraduationCap className="w-4 h-4" />
-          <span className="font-medium">Education</span>
-        </button>
-      </div>
-
-      <div className="hidden sm:grid grid-cols-3 divide-x divide-gray-800">
+    <div className="overflow-hidden rounded-lg bg-black border border-gray-800">
+      <div className="grid grid-cols-3 divide-x divide-gray-800">
         <button
           onClick={() => setActiveTab("about")}
           className={`flex items-center justify-center gap-2 py-3 px-4 transition-colors cursor-pointer 
@@ -75,8 +43,8 @@ export default function ProfessionalSummary() {
 
       <hr className="border-t border-gray-800 w-full m-0" />
 
-      <div className="p-4 sm:p-6">
-        <div className="space-y-3 sm:space-y-4 text-gray-400">
+      <div className="p-4">
+        <div className="text-gray-400">
           {activeTab === "about" && <About />}
           {activeTab === "experience" && <Experience />}
           {activeTab === "education" && <Education />}
@@ -85,4 +53,3 @@ export default function ProfessionalSummary() {
     </div>
   )
 }
-
