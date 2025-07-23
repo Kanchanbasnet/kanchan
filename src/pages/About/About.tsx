@@ -12,7 +12,7 @@ import {
   ReactIcon,
   TypeScriptIcon,
 } from '../../assets/icons/icons';
-import resume from '../../assets/Kanchan Basnet.pdf'
+import resume from '../../assets/kanchanbasnet.pdf'
 const skills = [
   {
     name: 'Javascript',

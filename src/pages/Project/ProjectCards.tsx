@@ -2,18 +2,18 @@ import { Card } from '../../components/ui/card';
 import { Badge } from '../../components/ui/badge';
 import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import cellar54 from '../../assets/images/cellar54.png'
+// import cellar54 from '../../assets/images/cellar54.png'
 
 const ProjectCards = () => {
   const projects = [
     {
-      id: 1,
-      title: 'Cellar54',
-      description: 'A wine website using HTML, CSS, and JavaScript',
-      image: cellar54,
-      githubLink: 'https://github.com/Kanchanbasnet/Cellar54',
-      liveLink: 'https://github.com/Kanchanbasnet/Cellar54',
-      techStack: ['HTML', 'CSS', 'JS'],
+      // id: 1,
+      // title: 'Cellar54',
+      // description: 'A wine website using HTML, CSS, and JavaScript',
+      // image: cellar54,
+      // githubLink: 'https://github.com/Kanchanbasnet/Cellar54',
+      // liveLink: 'https://github.com/Kanchanbasnet/Cellar54',
+      // techStack: ['HTML', 'CSS', 'JS'],
     }
   ];
 

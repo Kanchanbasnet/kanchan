@@ -46,7 +46,7 @@ export default function About() {
                   <GithubIcon />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/kanchan-basnet/"
+                  href="https://www.linkedin.com/in/kanchanbasnet01/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
@@ -56,7 +56,7 @@ export default function About() {
                 </a>
 
                 <a
-                  href="https://medium.com/@kanchanbasnet5"
+                  href="https://medium.com/@kanchanbasnet.dev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
@@ -66,7 +66,7 @@ export default function About() {
                 </a>
 
                 <a
-                  href="mailto:kanchanbasnet5@gmail.com"
+                  href="mailto:kanchanbasnet.dev@gmail.com"
                   className="text-gray-400 hover:text-white transition-colors"
                   aria-label="Email"
                 >
