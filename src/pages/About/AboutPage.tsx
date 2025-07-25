@@ -1,6 +1,6 @@
 import HeaderNavigation from "../../components/FooterNavigation";
 import { Mail, BookText } from "lucide-react";
-import profileImage from "../../assets/images/profile.jpeg";
+import profileImage from "../../assets/images/profile3.png";
 import ProfessionalSummary from "./AboutContent";
 import { GithubIcon, LinkedInIcon } from "../../assets/icons/icons";
 import Footer from "../../components/Footer";
@@ -19,13 +19,14 @@ export default function About() {
 
         <div className="max-w-4xl mx-auto space-y-10 mt-20">
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-20">
-            <div className="w-32 h-32 md:w-48 md:h-48 relative overflow-hidden rounded-full border-2 border-gray-800">
-              <img
-                src={profileImage || "/placeholder.svg"}
-                alt="Profile picture"
-                className="w-full h-full object-cover"
-              />
-            </div>
+           <div className="relative aspect-square w-32 md:w-48 overflow-hidden rounded-full border-2 border-gray-800">
+  <img
+    src={profileImage || "/placeholder.svg"}
+    alt="Profile picture"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+</div>
+
 
             <div className="space-y-1 text-center md:text-left">
               <h1 className="text-2xl md:text-4xl font-bold text-white">
